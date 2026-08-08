@@ -1,0 +1,67 @@
+/* General styling */
+* {
+    font-family: "JetBrainsMono Nerd Font Propo", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    /* border: none; */
+}
+
+#waybar {
+    color: #c0caf5;
+}
+
+/* Workspaces */
+#workspaces button {
+    padding: 0 5px;
+    margin: 0 3px;
+    color: #7aa2f7;
+    background: transparent;
+    border-radius: 0;
+}
+
+#workspaces button.active {
+    color: #bb9af7;
+    border-bottom: 2px solid #bb9af7;
+}
+
+#workspaces button:hover {
+    background: #3d59a1;
+}
+
+/* Modules */
+#window, #pulseaudio, #backlight, #battery, #tray, #clock, #custom-power {
+    padding: 0 6px;
+    margin: 0 3px;
+    color: #c0caf5;
+}
+
+#pulseaudio.muted {
+    color: #f7768e;
+}
+
+#battery.charging, #battery.plugged {
+    color: #9ece6a;
+}
+
+#battery.warning {
+    color: #e0af68;
+}
+
+#battery.critical {
+    color: #f7768e;
+}
+
+#custom-power:hover {
+    background: #3d59a1;
+}
+
+#tray > .passive {
+    color: #6b7280;
+}
+
+tooltip {
+    background: #1a1b26;
+    color: #c0caf5;
+    border: 1px solid #3d59a1;
+}
