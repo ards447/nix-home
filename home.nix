@@ -6,6 +6,8 @@
   home.username = "rahul";
   home.homeDirectory = "/home/rahul";
 
+  targets.genericLinux.enable = true;
+
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
@@ -33,7 +35,7 @@
     pkgs.just
     pkgs.hyperfine
     pkgs.lazygit
-    pkgs.wezterm
+    # pkgs.wezterm
     pkgs.yazi
     pkgs.zellij
     pkgs.tealdeer
