@@ -23,6 +23,19 @@
     pkgs.fzf
     pkgs.eza
     pkgs.bat
+    pkgs.btop
+    pkgs.dust
+    pkgs.hyperfine
+    pkgs.jq
+    pkgs.just
+    pkgs.lazygit
+    pkgs.procs
+    pkgs.tealdeer
+    pkgs.tree
+    pkgs.yazi
+    pkgs.zellij
+    pkgs.zoxide
+
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
