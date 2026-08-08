@@ -21,20 +21,24 @@
     pkgs.ripgrep
     pkgs.fd
     pkgs.fzf
+    pkgs.zoxide
+    pkgs.vicinae
     pkgs.eza
     pkgs.bat
-    pkgs.btop
+    pkgs.tree
+    pkgs.procs
     pkgs.dust
-    pkgs.hyperfine
+    pkgs.btop
     pkgs.jq
     pkgs.just
+    pkgs.hyperfine
     pkgs.lazygit
-    pkgs.procs
-    pkgs.tealdeer
-    pkgs.tree
+    pkgs.wezterm
     pkgs.yazi
     pkgs.zellij
-    pkgs.zoxide
+    pkgs.tealdeer
+    pkgs.brave-origin
+    pkgs.firefox
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
