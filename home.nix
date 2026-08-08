@@ -69,6 +69,7 @@
     # '';
   };
 
+  xdg.configFile."niri".source = ./dotfiles/niri;
   xdg.configFile."waybar".source = ./dotfiles/waybar;
 
   # Home Manager can also manage your environment variables through

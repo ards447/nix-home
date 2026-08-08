@@ -1,0 +1,83 @@
+workspace "1"
+workspace "2"
+workspace "3"
+workspace "4"
+
+layout {
+    // Similar to Hyprland's gaps_in = 2
+    gaps 2
+
+    // When to center a column when changing focus, options are:
+    // - "never", default behavior, focusing an off-screen column will keep at the left
+    //   or right edge of the screen.
+    // - "always", the focused column will always be centered.
+    // - "on-overflow", focusing a column will center it if it doesn't fit
+    //   together with the previously focused column.
+    center-focused-column "never"
+
+    // If only one column exists, keep it centered.
+    always-center-single-column
+
+    // New windows occupy half the screen width.
+    default-column-width {
+        proportion 0.5
+    }
+
+    //
+    // Borders
+    //
+
+    border {
+	on
+        width 2
+
+        active-color "#7dcfff"
+        inactive-color "#595959aa"
+    }
+    //
+    // Focus ring
+    //
+
+    focus-ring {
+	off
+    }
+
+    //
+    // Shadows
+    //
+
+    shadow {
+        off
+    }
+
+    //
+    // Tab indicator
+    //
+
+    tab-indicator {
+        hide-when-single-tab
+    }
+
+    //
+    // No reserved space.
+    //
+
+    struts {}
+}
+
+prefer-no-csd
+
+window-rule {
+    geometry-corner-radius 7
+    clip-to-geometry true
+}
+
+window-rule {
+    draw-border-with-background false
+}
+
+
+cursor {
+    xcursor-theme "BreezeX-RosePineDawn-Linux"
+    xcursor-size 24
+}

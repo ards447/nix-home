@@ -1,0 +1,25 @@
+// ~/.config/niri/config.kdl
+
+// Environment variables
+include "modules/environment.kdl"
+
+// Input devices
+include "modules/input.kdl"
+
+// Monitor configuration
+include "modules/outputs.kdl"
+
+// Appearance / layout
+include "modules/layout.kdl"
+
+// Startup applications
+include "modules/autostart.kdl"
+
+// Keybindings
+include "modules/binds.kdl"
+
+// Future modules:
+//
+// include optional=true "modules/rules.kdl"
+// include optional=true "modules/animations.kdl"
+// include optional=true "modules/gestures.kdl"

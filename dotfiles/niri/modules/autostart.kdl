@@ -1,0 +1,17 @@
+// ~/.config/niri/autostart.kdl
+
+spawn-at-startup "waybar" "-c" "/home/rahul/.config/waybar/config-niri.jsonc"
+
+spawn-at-startup "nm-applet" "--indicator"
+
+spawn-at-startup "blueman-applet"
+
+spawn-at-startup "swaync"
+
+spawn-at-startup "copyq" "--start-server"
+
+spawn-at-startup "vicinae" "server"
+
+spawn-at-startup "hyprpaper"
+
+spawn-sh-at-startup "systemctl --user start hyprpolkitagent"
