@@ -75,10 +75,10 @@
     # '';
   };
 
-  xdg.configFile."niri".source = ./dotfiles/niri;
-  xdg.configFile."waybar".source = ./dotfiles/waybar;
-  xdg.configFile."nvim".source = ./dotfiles/nvim;
-  xdg.configFile."wezterm".source = ./dotfiles/wezterm;
+  xdg.configFile."niri".source = config.lib.file.mkOutOfStoreSymlink "/home/rahul/.config/home-manager/dotfiles/niri";
+  xdg.configFile."waybar".source = config.lib.file.mkOutOfStoreSymlink "/home/rahul/.config/home-manager/dotfiles/waybar";
+  xdg.configFile."nvim".source = config.lib.file.mkOutOfStoreSymlink "/home/rahul/.config/home-manager/dotfiles/nvim";
+  xdg.configFile."wezterm".source = config.lib.file.mkOutOfStoreSymlink "/home/rahul/.config/home-manager/dotfiles/wezterm";
 
   # Home Manager can also manage your environment variables through
   # 'home.sessionVariables'. These will be explicitly sourced when using a
