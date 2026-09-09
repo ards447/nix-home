@@ -15,3 +15,7 @@ spawn-at-startup "vicinae" "server"
 spawn-at-startup "hyprpaper"
 
 spawn-sh-at-startup "systemctl --user start hyprpolkitagent"
+
+hotkey-overlay {
+    skip-at-startup
+}

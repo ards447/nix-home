@@ -40,7 +40,7 @@
     pkgs.zellij
     pkgs.tealdeer
     pkgs.brave-origin
-    pkgs.firefox
+    # pkgs.firefox
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
