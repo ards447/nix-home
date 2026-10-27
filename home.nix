@@ -39,7 +39,7 @@
     pkgs.yazi
     pkgs.zellij
     pkgs.tealdeer
-    pkgs.brave-origin
+    # pkgs.brave-origin
     # pkgs.firefox
 
     # # Adds the 'hello' command to your environment. It prints a friendly
